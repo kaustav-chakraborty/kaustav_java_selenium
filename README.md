@@ -166,3 +166,4 @@ The first thing a framework should be able to handle is to launch the browser an
 	 2. Class name with text *Test* in the beginneing or end
 	 3. Test methods with annotation @test
 
+**To know more on how to store locators using By Class in Selenium Page object model, [visit here](https://automationscript.com/how-to-store-locators-using-by-class-in-selenium-page-object-model/)
