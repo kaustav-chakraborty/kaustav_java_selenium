@@ -43,6 +43,7 @@ public class DemoTest {
 			System.out.println("Issue in Test data file opening; you can do some operation here, may be exit test");
 		}
 	}
+	//this is a before method
 	@BeforeMethod
 	public void startTest(Method m) {
 		logger.startTest(m.getName());
@@ -56,7 +57,7 @@ public class DemoTest {
 		logger.endTest();
 
 	}
-
+//this is a AFter suite method
 	@AfterSuite
 	public void endTestSuite() {
 		logger.endTestSuite();
