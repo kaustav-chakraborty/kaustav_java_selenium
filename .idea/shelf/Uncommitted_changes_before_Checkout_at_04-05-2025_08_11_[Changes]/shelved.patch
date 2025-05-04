@@ -1,0 +1,17 @@
+Index: src/main/java/Constants/New_java_class.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Constants;\r\n\r\npublic class New_java_class {\r\n    public static void main(String[] args){\r\n        System.out.println(\"new class\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Constants/New_java_class.java b/src/main/java/Constants/New_java_class.java
+--- a/src/main/java/Constants/New_java_class.java	(revision ae822a9819e33b80ce7cf25d1a0fc529fa09291b)
++++ b/src/main/java/Constants/New_java_class.java	(date 1746326394824)
+@@ -3,5 +3,6 @@
+ public class New_java_class {
+     public static void main(String[] args){
+         System.out.println("new class");
++
+     }
+ }

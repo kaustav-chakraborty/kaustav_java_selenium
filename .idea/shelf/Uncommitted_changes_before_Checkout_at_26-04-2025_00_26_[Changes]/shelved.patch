@@ -1,0 +1,15 @@
+Index: src/main/java/Constants/practice_java.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Constants;\r\n\r\npublic class practice_java {\r\n    public  static  void main(String []args){\r\n        System.out.println(\"hi\");\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/main/java/Constants/practice_java.java b/src/main/java/Constants/practice_java.java
+--- a/src/main/java/Constants/practice_java.java	(revision ae822a9819e33b80ce7cf25d1a0fc529fa09291b)
++++ b/src/main/java/Constants/practice_java.java	(date 1745606771362)
+@@ -3,5 +3,6 @@
+ public class practice_java {
+     public  static  void main(String []args){
+         System.out.println("hi");
++        System.out.println("hi 2");
+     }
+ }
